@@ -1,0 +1,14 @@
+[project]
+name = "documentpy"
+version = "1.0.0"
+description = "A project for documenting python code."
+authors = [
+    {name = "Leonardo Mieschendahl", email = "miesschendahl.leonardo@gmail.com"}
+]
+dependencies = [
+    'PromptGPT @ git+https://github.com/Mieschendahl/PromptGPT.git'
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
